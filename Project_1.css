@@ -60,7 +60,7 @@
     align-items: center;
 }
 #home::before{
-    background: url('./22.jpeg') no-repeat center center/cover;
+    background: url('./image/22.jpeg') no-repeat center center/cover;
     /* ./ one dot to move one folder back i.e i was in project_1.css moving 1 file back i was in project_1 folder where i can access all files  */
     height: 60%;
     width: 100%;
@@ -126,7 +126,7 @@ section button{
 .client-section::before{
     content: "";
     position: absolute;
-    background: url('./1.webp');
+    background: url('./image/1.webp');
     width: 100%;
     height:35%;
     z-index: -1;
