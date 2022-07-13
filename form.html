@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form practice with instruction</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">DRIVING LICENSE FORM</h1>
+
+    <form action="backend.php">
+        <!-- <label for="photo">Upload Photo:</lable> -->
+        <div>
+
+
+<h3>identity</h3>
+            <ul type="disc">
+                <li><label style="cursor: pointer;" for="name">Name:<input  type="text" maxlength="20" id="name" name="MyName"> </lable>             <label for="p" style="cursor: pointer;">Upload Photo:</lable><input  type="file" value="chose file" name="MyPhoto" accept=".jpg, .png, .jpeg" id="p"></li><br>
+                <li><label for="fn">Father Name:</lable><input type="text" style="color: red; " maxlength="20" name="MyFatherame" id="fn"><label for="p">Upload Photo:</lable><input type="file" value="chose file" name="MyPhoto" accept=".jpg, .png, .jpeg" id="p"></li><br>
+                <li><label for="adhar">Adhar card (aam aadmi kee pehanchan):</label><input type="file" accept=".pdf" id="adhar"></li>
+            </ul>
+
+        </div>
+
+        <div>
+            <h3>age criteria</h3>
+            <ol type="1">
+                <label for="age">Age:</label>
+
+                <li><input type="number" min="18" id="age" name="MyAge" ></li>
+
+                <li>
+                    <label for="dob">Date Of birth:</label>
+
+                    <input type="date" id="dob" name="Year">
+                </li>
+            </ol>
+        </div>
+        <div>
+            <h3>decleration</h3>
+            <ul type="none" >
+                <li style> 
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla fuga optio consectetur voluptas rerum labore, illo facere eligendi quo nam blanditiis reprehenderit consequuntur praesentium iusto, ad assumenda aut odio eveniet?<div style="text-align: right;">Select:<input type="radio" name="y/n">Yes:</input><input type="radio" name="y/n">No:</input></div>
+                    
+                        
+                    
+                </li>
+                <li style> 
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla fuga optio consectetur voluptas rerum labore, illo facere eligendi quo nam blanditiis reprehenderit consequuntur praesentium iusto, ad assumenda aut odio eveniet?<div style="text-align: right;">Select:<input type="radio" name="yn">Yes:</input><input type="radio" name="yn">No:</input></div>
+                    
+                        
+                    
+                </li>
+                <li style> 
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla fuga optio consectetur voluptas rerum labore, illo facere eligendi quo nam blanditiis reprehenderit consequuntur praesentium iusto, ad assumenda aut odio eveniet?lorem12<div style="text-align: right;">Select:<input type="radio" name="y/pn">Yes:</input><input type="radio" name="y/pn">No:</input></div>
+                    
+                        
+                    
+                </li>
+                <li style> 
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla fuga optio consectetur voluptas rerum labore, illo facere eligendi quo nam blanditiis reprehenderit consequuntur praesentium iusto, ad assumenda aut odio eveniet?<div style="text-align: right;">Select:<input type="radio" name="y/$n">Yes:</input><input type="radio" name="y/$n">No:</input></div>
+                    
+                        
+                    
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3>eligibility checkbox</h3>
+            <p>I hereby declare all the data is given by me is 100% real if not then action will be taken against the person by Indian government<input type="checkbox" checked></p>
+
+        </div>
+        <div>
+            <input type="submit" value="submit now" style="cursor: pointer; ">
+            <br>
+            <br>
+            <input type="reset" value="reset" style="cursor: pointer;">
+        </div>
+    </form>
+
+
+</body>
+</html>
